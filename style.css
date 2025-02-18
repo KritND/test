@@ -51,13 +51,14 @@ body {
     word-wrap: break-word;  /* ให้ข้อความไม่ขาดตอน */
     overflow-wrap: break-word;  /* ทำให้ข้อความไม่ล้น */
     padding: 10px;
-    background-color: #fff;
+    /* ลบพื้นหลังสีขาวออก */
+    /* background-color: #fff; */
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transform: translateY(50px);
     transition: opacity 1s, transform 1s;
-
 }
+
 
 /* ใช้ Media Queries ปรับขนาดฟอนต์ในมือถือ */
 @media screen and (max-width: 600px) {
